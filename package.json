@@ -1,0 +1,51 @@
+{
+  "name": "react-native-kdqq",
+  "version": "1.0.0",
+  "description": "this is a plugin that  chapter lasted qq login share eg.",
+  "main": "index.js" ,
+  "rnpm": {
+    "ios": {
+      "sharedLibraries": [
+        "libz",
+        "libiconv",
+        "libsqlite3",
+        "libstdc++",
+        "Security",
+        "SystemConfiguration",
+        "CoreTelephony",
+        "CoreGraphics"
+      ]
+    },
+    "commands": {
+      "postlink": "node node_modules/react-native-kdqq/scripts/postlink/postlink",
+      "postunlink": "node node_modules/react-native-kdqq/scripts/postunlink/postunlink"
+    }
+  },
+   "dependencies": {
+    "glob": "5.0.15",
+    "inquirer": "1.1.2",
+    "lodash": "4.17.2",
+    "path": "0.12.7",
+    "plist": "1.2.0",
+    "xcode": "0.8.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lj10734qq/react-native-kdqq.git"
+  },
+  "keywords": [
+    "qq",
+    "login",
+    "qqshare",
+    "react-native-kdqq"
+  ],
+  "author": "linjian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lj10734qq/react-native-kdqq/issues"
+  },
+  "homepage": "https://github.com/lj10734qq/react-native-kdqq#readme"
+}
